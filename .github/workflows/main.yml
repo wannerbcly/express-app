@@ -26,5 +26,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/express-app:latest
+          tags: wannerbcly/express-app:latest
           platforms: linux/amd64,linux/arm64
